@@ -1,0 +1,5 @@
+# Set your DATABASE_URL to Supabase
+export DATABASE_URL="postgresql://postgres:Akalimain000-@db.spnhuzaclgccmmunhmfc.supabase.co:5432/postgres"
+
+# Then run
+npx prisma migrate deploy
